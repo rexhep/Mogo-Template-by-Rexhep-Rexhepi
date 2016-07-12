@@ -1,0 +1,68 @@
+/* lg */ 
+@media (min-width: 1200px) {
+	.outside-image .phone { }
+
+}
+
+/* md */
+@media (min-width: 992px) and (max-width: 1199px) {
+	.outside-image .phone {margin-right: 155px;}
+
+}
+@media (min-width: 768px) and (max-width: 991px) {
+
+	#features .wow {width: 50%;}
+	.five-f {display: flex;flex-direction: row;flex-wrap: wrap;justify-content: center;align-items: center;}
+	#features .timer { }
+	.our-services .icona { }
+	.our-services .details { }
+	.outside-image .phone {margin-right: 32px;}
+	.services-two .image-l {padding-right: 15px;padding-bottom: 20px;}
+	.testimonials-all .icon-t { margin-bottom: 20px;}
+	#home-slider .caption h1 { font-size:64px;}
+	.grid figcaption {top: -15px;left: -15px;}
+	.grid figure img { margin-bottom:20px;}
+	.our-team .inner .inner-s .social-icons { }
+
+
+}
+
+/* xs */
+@media (max-width: 767px) {
+#features .wow {width: 50%;}
+.five-f {display: flex;flex-direction: row;flex-wrap: wrap;justify-content: center;align-items: center;}
+#features .timer { }
+.our-services .icona {width: 100%;text-align: center;padding-bottom: 20px;}
+.our-services .details {padding-left: 0;width: 100%;text-align: center;padding-bottom: 20px;}
+.outside-image .phone {margin-right: 15px;}
+.outside-image .phone { display:none;}
+#unique-d .tablet {display:none; }
+.services-two .image-l {padding-right: 15px;padding-bottom: 20px;}
+.testimonials-all .icon-t {margin-bottom: 20px;display: inline-block;flex-direction: inherit;flex-wrap: inherit;justify-content: inherit;align-items: center;min-height: 2vh;}
+.testimonials-all .description {font-size: 20px;}
+.f-blogs .sector { padding-top: 20px;}
+#home-slider .caption h1 { font-size:64px;}
+.grid figcaption {top: -15px;left: -15px;}
+.grid figure img { margin-bottom:20px;}
+.our-team .inner .inner-s .social-icons {margin-top: 0;margin-left: 0;}
+.people-s .content {text-align: center;padding-top: 10px;padding-bottom: 20px;}
+.people-s .line {width: 100%;}
+.people-s .inner {}
+.blog .inner {margin-bottom: 20px;} 
+.sec-testimonials .slick-prev {left: 0;}
+.sec-testimonials .slick-next {right: 0;}
+.testimonials-all .slick-next {right: 0;}
+.testimonials-all .slick-prev {left: 0;}
+}
+
+/* XS Portrait */
+@media (max-width: 479px) {
+#features .wow {width: 50%;}
+.five-f {}
+#features .timer {font-size: 40px;}
+.our-services .icona { }
+.our-services .details { }
+.f-blogs .image { width: 100%;}
+.f-blogs .content {width: 100%;padding-left: 0;}
+.f-blogs .inner {padding-bottom: 20px;}
+}
