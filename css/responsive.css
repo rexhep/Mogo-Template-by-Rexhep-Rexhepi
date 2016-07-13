@@ -23,6 +23,7 @@
 	.grid figcaption {top: -15px;left: -15px;}
 	.grid figure img { margin-bottom:20px;}
 	.our-team .inner .inner-s .social-icons { }
+	.navbar-brand h1 { }
 
 
 }
@@ -53,6 +54,7 @@
 .sec-testimonials .slick-next {right: 0;}
 .testimonials-all .slick-next {right: 0;}
 .testimonials-all .slick-prev {left: 0;}
+.navbar-brand h1 {padding-left: 15px;}
 }
 
 /* XS Portrait */
